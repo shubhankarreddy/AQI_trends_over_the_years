@@ -11,8 +11,8 @@ This project delves into air quality data analysis to understand pollution level
 ## Data Description
 The code expects the data to be in a CSV format with the following columns:
 
-date: Date of the measurement
-city: City name=
-PM2.5: Concentration of fine particulate matter
-PM10: Concentration of coarse particulate matter
-AQI: Air Quality Index
+-date: Date of the measurement
+-city: City name=
+-PM2.5: Concentration of fine particulate matter
+-PM10: Concentration of coarse particulate matter
+-AQI: Air Quality Index
