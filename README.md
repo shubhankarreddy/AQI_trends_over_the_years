@@ -30,23 +30,23 @@ The code expects the data to be in a CSV format with the following columns:
 - Key Features: PM2.5, PM10, NO2, NH3, SO2, CO, O3, AQI, AQI_Bucket, and date.
 
 ## Techniques and Tools Used
-** Data Cleaning and Preprocessing:
-*** Filled missing values using mean imputation.
-*** Converted date column to datetime format.
-*** Sorted data chronologically for time series analysis.
+- Data Cleaning and Preprocessing:
+   - Filled missing values using mean imputation.
+   - Converted date column to datetime format.
+   - Sorted data chronologically for time series analysis.
 
-** Exploratory Data Analysis (EDA):
-*** Computed descriptive statistics.
-*** Visualized data using bar plots, scatter plots, histograms, and time series plots.
-*** Analyzed trends and seasonal patterns.
+- Exploratory Data Analysis (EDA):
+  - Computed descriptive statistics.
+  - Visualized data using bar plots, scatter plots, histograms, and time series plots.
+  - Analyzed trends and seasonal patterns.
 
-** Visualization:
-*** Employed Seaborn and Matplotlib for comprehensive data visualization.
-*** Used various styles and color palettes for enhanced visual appeal.
+- Visualization:
+  -Employed Seaborn and Matplotlib for comprehensive data visualization.
+  -Used various styles and color palettes for enhanced visual appeal.
 
-** Predictive Modeling:
-*** Developed a Linear Regression model using Scikit-learn.
-*** Evaluated model performance with Mean Squared Error (MSE) and R-squared (R²) metrics.
+- Predictive Modeling:
+  - Developed a Linear Regression model using Scikit-learn.
+  - Evaluated model performance with Mean Squared Error (MSE) and R-squared (R²) metrics.
 
 ## Findings
 - Identified the top 10 cities with the highest average AQI.
